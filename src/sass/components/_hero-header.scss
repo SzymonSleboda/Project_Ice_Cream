@@ -1,4 +1,7 @@
-h1 {
+header {
+  display: flex;
+
   color: var(--text-grey);
+  background-color: var(--background-header);
 }
 // to są próbne style, sprawdzałem czy działają, możecie wywalić
