@@ -1,0 +1,83 @@
+@charset "UTF-8";
+/*
+ * Główny plik dla stylów.
+ * Wszystkie partials podłączamy tutaj.
+ */
+:root {
+  --background-footer: #fff5f6;
+  --background-header: #ffb8ca;
+  --background-mobile-menu: #e17992;
+  --text-red: #d41443;
+  --text-pink: #ffa5ba;
+  --text-black: #000000;
+  --text-grey: #907e82;
+  --text-white: #ffffff;
+  --icecoffee-color: #f0d1a5;
+  --milkshakes-color: #c2e297;
+}
+
+.container {
+  width: 320px;
+  margin: 0 auto;
+  padding-inline: 20px;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+    padding-inline: 34px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .container {
+    width: 1280px;
+    padding-inline: 77px;
+  }
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+}
+
+.list-style {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.example {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #424242;
+  max-width: 960px;
+  padding: 16px;
+}
+
+.example code {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #009688;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.example .background {
+  height: 240px;
+  background-image: url("../images/demo.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+h1 {
+  color: var(--text-grey);
+}
+
+h2 {
+  color: var(--background-header);
+}/*# sourceMappingURL=main.css.map */
