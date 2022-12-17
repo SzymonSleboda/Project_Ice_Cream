@@ -1,0 +1,152 @@
+.contact {
+  background-image: linear-gradient(to bottom, var(--text-white) 5%, var(--background-footer) 5%);
+}
+.contact__cards {
+  display: flex;
+  flex-direction: column;
+  font-size: 12px;
+  line-height: 22px;
+  gap: 20px;
+  align-items: center;
+}
+
+.contact__card {
+  box-shadow: 0px 8px 30px 0px #d414431a;
+  border-radius: 24px;
+  padding: 43px 20px;
+  width: 220px;
+  background-color: var(--text-white);
+}
+.contact__card-title {
+  display: inline;
+  color: var(--text-white);
+  background-color: var(--icecoffee-color);
+  padding: 2px 35px;
+  border-radius: 4px;
+}
+.contact__card-title-alternate-background {
+  background-color: var(--milkshakes-color);
+}
+.contact__card-elements {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.contact__card__adress,
+.contact__card__date {
+  position: relative;
+}
+
+.contact__card__adress-description {
+  color: var(--text-grey);
+  line-height: 18px;
+}
+.contact__card__date-days {
+  margin: 0px;
+}
+
+.contact__card__date-hours {
+  margin: 0px;
+  margin-bottom: 10px;
+  color: var(--text-pink);
+}
+.contact__card__contacts {
+  line-height: 18px;
+}
+.contact__card__contacts-tel {
+  text-decoration: none;
+  color: var(--text-grey);
+}
+.contact__card__contacts-email {
+  text-decoration: none;
+  color: var(--text-grey);
+}
+
+.contact__card__adress::after,
+.contact__card__date::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #e1e1e1;
+  top: 125%;
+}
+.contact__button-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 50px;
+}
+.contact__button-list__button {
+  background: var(--text-white);
+  color: var(--text-red);
+  height: 44px;
+  min-width: 161px;
+  border-radius: 22px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+.contact__button-list__button-first {
+  background: var(--text-red);
+  color: var(--text-white);
+}
+@media screen and (min-width: 768px) {
+  .contact {
+    background-image: linear-gradient(
+      to bottom,
+      var(--text-white) 15%,
+      var(--background-footer) 15%
+    );
+  }
+  .contact__cards {
+    flex-direction: row;
+    font-size: 14px;
+  }
+  .contact__card-title {
+    font-size: 16px;
+    padding: 6px 35px;
+    border-radius: 6px;
+    line-height: 30px;
+  }
+  .contact__card__adress {
+    margin-top: 30px;
+  }
+  .contact__card-elements {
+    gap: 60px;
+  }
+  .contact__button-list {
+    flex-direction: row;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 80px;
+  }
+  .contact__button-list__button {
+    padding-inline: 30px;
+  }
+  .contact__card__date {
+    line-height: 26px;
+  }
+  .contact__card__date-hours {
+    margin-bottom: 16px;
+  }
+  .contact__card__contacts {
+    line-height: 26px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .contact__cards {
+    font-size: 16px;
+    justify-content: center;
+    gap: 30px;
+  }
+  .contact__card {
+    min-width: 330px;
+    padding: 50px 43px;
+  }
+  .contact__button-list__button {
+        padding-inline: 35px;
+  }
+}
