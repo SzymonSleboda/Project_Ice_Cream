@@ -44,10 +44,12 @@ color: var(--text-red);
   justify-content: center;
   padding: 22px 0;
   border-top: 1px solid #907e82;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
 }
 
 .footer__copyright--properties {
  display: flex;
- flex-direction: column; 
  justify-content: center;
 }
