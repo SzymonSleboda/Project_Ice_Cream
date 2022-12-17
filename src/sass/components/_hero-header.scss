@@ -1,4 +1,240 @@
-h1 {
-  color: var(--text-grey);
+.header {
+  // width: 320px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  background: url(../images/mobile/bigice1x.png), url(../images/mobile/ellipse1x.png);
+  background-color: var(--background-header);
+  height: 502px;
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: right 15% bottom, right center;
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    max-width: 100%;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 1280px;
+  }
 }
-// to są próbne style, sprawdzałem czy działają, możecie wywalić
+
+.wrapper {
+  max-width: 100%;
+  display: flex;
+  padding-top: 6px;
+  justify-content: space-between;
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1280px;
+  }
+}
+.navi {
+  max-width: 100%;
+  background-color: red;
+  display: flex;
+
+  justify-content: space-between;
+  padding-top: 6px;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1280px;
+  }
+}
+
+.ice-logo {
+}
+
+.menu-mobile {
+  display: flex;
+  // background-color: aqua;
+  align-items: center;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1280px;
+  }
+}
+
+.burger {
+  fill: #d41443;
+  background-color: #d41443;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1280px;
+  }
+}
+.img {
+  width: auto;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1280px;
+  }
+}
+.content {
+  max-width: 100%;
+
+  padding-top: 115px;
+  display: flex;
+  flex-direction: column;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1280px;
+  }
+}
+
+.paragraf {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: flex-start;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1280px;
+  }
+}
+.text-white {
+  padding: 0;
+  width: 218px;
+  color: var(--text-white);
+  font-family: 'Titan One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1280px;
+  }
+}
+.text-red {
+  padding: 0;
+  color: var(--text-red);
+  font-family: 'Titan One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 0.97;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1280px;
+  }
+}
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1280px;
+  }
+}
+
+.button-red {
+  width: 62.4px;
+
+  height: 24px;
+  background-color: var(--text-red);
+  color: var(--text-white);
+  border-radius: 20px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 10px;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  text-align: center;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1280px;
+  }
+}
+
+.button-white {
+  width: 82.8px;
+  height: 24px;
+  margin-left: 8px;
+  background-color: var(--text-white);
+  color: var(--text-red);
+  border-radius: 20px;
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 10px;
+  cursor: pointer;
+  display: inline-block;
+  border: 0;
+  text-align: center;
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    max-width: 480px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    max-width: 768px;
+  }
+  @media screen and (min-width: 1200px) {
+    max-width: 1280px;
+  }
+}
