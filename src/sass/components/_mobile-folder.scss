@@ -1,6 +1,4 @@
 .menu-toggle {
-  min-height: 12px;
-  min-width: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,4 +47,6 @@
 
 .menu-toggle-icon {
   fill: var(--text-red);
+  width: 20px;
+  height: 12px;
 }
