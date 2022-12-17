@@ -1,0 +1,73 @@
+.about__section{
+    background-color: var(--background-footer);
+    width: 100vw;
+    padding-bottom: 39px;
+}
+.about__label{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.166;
+    text-align: center;
+    text-transform: uppercase;
+    color: var(--text-pink) ;
+    margin-bottom: 15px;
+}
+.about__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 34px;
+    line-height: 1.147;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--text-red) ;
+    margin-top: 0;
+}
+.about__description--first-para{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.583;
+    color: var(--text-black);
+    padding-inline: 30px;
+}
+.about__description--second-para{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.583;
+    color: var(--text-grey);
+    padding-top: 47px;
+    padding-inline: 30px;
+}
+.about__description--button{
+    padding-top: 47px;
+    padding-inline: 30px;
+}
+.about__button{
+    width: 176px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: var(--text-white);
+    border-radius: 22px;
+    border: 0;
+    padding: 0;
+}
+.about__button-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 83px;
+    height: 44px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.285;
+    color: var(--text-red);
+}
+.about__icon{
+    margin-left: 13.62px;
+}
