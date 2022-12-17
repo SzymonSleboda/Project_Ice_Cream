@@ -1,5 +1,6 @@
 .footer {
-    background-color: var(--background-footer);
+  padding-top: 113px;
+  background-color: var(--background-footer);
 }
 
 .footer__title {
@@ -21,6 +22,7 @@ color: var(--text-pink);
 font-size: 34px;
 letter-spacing: 0.04em;
 color: var(--text-red);
+margin: 0;
 }
 
 .footer__contact {
