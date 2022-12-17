@@ -12,13 +12,42 @@ line-height: 1.15;
 
 }
 
-.footer__title-top {
+.footer__title--top {
 font-size: 18px;
 color: var(--text-pink);
 }
 
-.footer__title-bottom {
+.footer__title--bottom {
 font-size: 34px;
 letter-spacing: 0.04em;
 color: var(--text-red);
+}
+
+.footer__contact {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.86;
+}
+
+.footer__contact--red-text {
+  text-decoration: none;
+color: var(--text-red);
+
+}
+
+.footer__copyright {
+  color: var(--text-grey);
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 22px 0;
+  border-top: 1px solid #907e82;
+}
+
+.footer__copyright--properties {
+ display: flex;
+ flex-direction: column; 
+ justify-content: center;
 }
