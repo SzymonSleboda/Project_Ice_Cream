@@ -38,7 +38,7 @@
     font-style: normal;
     font-weight: 700;
     font-size: 12px;
-    line-height: 170%;
+    line-height: 1.666;
     color: var(--text-black);
     margin: 0px;
 }
@@ -48,7 +48,7 @@
     width: 33px;
     height: 50px;
     background-size: cover;
-    background-image: url()
+    background-image: url(../images/mobile/icon1@1x.png)
 }
 
 .advantage-card__icon2::before {
@@ -56,7 +56,7 @@
     width: 50px;
     height: 50px;
     background-size: cover;
-    background-image: url()
+    background-image: url(../images/mobile/icon2@1x.png)
 }
 
 .advantage-card__icon3::before {
@@ -64,5 +64,141 @@
     width: 44px;
     height: 50px;
     background-size: cover;
-    background-image: url()
+    background-image: url(../images/mobile/icon3@1x.png)
+}
+
+
+@media (min-device-pixel-ratio: 2) and (min-width:320px) and (max-width:768px),
+(min-resolution: 192dpi) and (min-width:320px) and (max-width:768px),
+(min-resolution: 2dppx) and (min-width:320px) and (max-width:768px){
+    .advantage-card__icon1::before{
+        background-image: url(../images/mobile/icon1@2x.png)
+    }
+    .advantage-card__icon2::before{
+        background-image: url(../images/mobile/icon2@2x.png)
+    }
+    .advantage-card__icon3::before{
+        background-image: url(../images/mobile/icon3@2x.png)
+    }
+}
+
+@media (min-width:768px) and (max-width:1280px){
+    .advantages__section{
+        padding-bottom: 139px;
+    }
+    .advantage-card {
+        width: 180px;
+        height: 222px;
+        margin-bottom: 0;
+    }
+    .advantages-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 60px;
+    }
+    .advantage-card__quantity{
+        width: 98px;
+        height: 142px;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 1.145;
+        letter-spacing: 0.04em;
+        gap: 36px;
+    }
+    .advantage-card__description{
+        font-size: 14px;
+        line-height: 1.714;
+        padding-top:13px;
+    }
+    .advantage-card__icon1::before {
+       background-image: url(../images/tablet/icon1@1x.png)
+    }
+
+    .advantage-card__icon2::before {
+       background-image: url(../images/tablet/icon2@1x.png)
+    }
+    
+    .advantage-card__icon3::before {
+       background-image: url(../images/tablet/icon3@1x.png)
+    }
+}
+
+@media (min-device-pixel-ratio: 2) and (min-width:768px) and (max-width:1280px),
+(min-resolution: 192dpi) and (min-width:768px) and (max-width:1280px),
+(min-resolution: 2dppx) and (min-width:768px) and (max-width:1280px) {
+    .advantage-card__icon1::before {
+        background-image: url(../images/tablet/icon1@2x.png)
+    }
+
+    .advantage-card__icon2::before {
+        background-image: url(../images/tablet/icon2@2x.png)
+    }
+
+    .advantage-card__icon3::before {
+        background-image: url(../images/tablet/icon3@2x.png)
+    }
+}
+
+@media (min-width:1280px){
+    .advantages__section {
+        padding-bottom: 139px;
+    }
+
+    .advantage-card {
+        width: 330px;
+        height: 222px;
+        margin-bottom: 0;
+    }
+
+    .advantages-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        gap: 30px;
+    }
+
+    .advantage-card__quantity {
+        width: 98px;
+        height: 155px;
+        font-weight: 400;
+        font-size: 58px;
+        line-height: 1.137;
+        letter-spacing: 0.04em;
+        gap: 40px;
+    }
+
+    .advantage-card__description {
+        font-size: 16px;
+        line-height: 1.75;
+        padding-top: 15px;
+    }
+
+    .advantage-card__icon1::before {
+        background-image: url(../images/desktop/icon1@1x.png)
+    }
+
+    .advantage-card__icon2::before {
+        background-image: url(../images/desktop/icon2@1x.png)
+    }
+
+    .advantage-card__icon3::before {
+        background-image: url(../images/desktop/icon3@1x.png)
+    }
+}
+
+@media (min-device-pixel-ratio: 2) and (min-width:1280px),
+(min-resolution: 192dpi) and (min-width:1280px),
+(min-resolution: 2dppx)  and (min-width:1280px) {
+    .advantage-card__icon1::before {
+        background-image: url(../images/desktop/icon1@2x.png)
+    }
+
+    .advantage-card__icon2::before {
+        background-image: url(../images/desktop/icon2@2x.png)
+    }
+
+    .advantage-card__icon3::before {
+        background-image: url(../images/desktop/icon3@2x.png)
+    }
 }
