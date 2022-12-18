@@ -9,6 +9,7 @@
   border: none;
   border-radius: 50%;
   outline: none;
+  max-width: 20px;
 }
 
 @media (min-width: 768px) {
@@ -18,6 +19,8 @@
 }
 .menu-toggle:focus svg {
   fill: var(--text-white);
+  transition-duration: 250ms;
+  transform: rotate(90deg);
 }
 .menu-container {
   position: fixed;
@@ -47,6 +50,49 @@
 
 .menu-toggle-icon {
   fill: var(--text-red);
-  width: 20px;
-  height: 12px;
+  max-height: 20px;
 }
+.menu-container svg {
+  fill: var(--text-white);
+  transition-duration: 250ms;
+  max-width: 14px;
+  max-height: 14px;
+}
+.link {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.29;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  color: var(--text-white);
+  margin-left: 21px;
+}
+.link-first {
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.29;
+  letter-spacing: 0em;
+  text-align: left;
+  text-decoration: none;
+  color: var(--text-red);
+  margin-left: 21px;
+}
+.mobile-menu-position--secondary {
+  width: 100%;
+  border: 1px solid #e18298;
+  height: 42px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.mobile-menu {
+  margin: 19px 0px 0px 0px;
+}
+
+.mobile-menu-position {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
