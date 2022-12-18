@@ -3,8 +3,7 @@
     justify-content: center;
     width: 100vw;
     padding-inline: 0;
-    padding-bottom: 80px;
-    margin: 0;
+    margin-bottom: 80px;
     height: auto;
     background-image: linear-gradient(
         to bottom,
@@ -18,4 +17,10 @@
     width: 100%;
     height: auto;
     object-fit: cover;
+}
+
+@media screen and (min-width: 768px ) {
+   .gallery{
+    margin-bottom: 120px;
+   }
 }
