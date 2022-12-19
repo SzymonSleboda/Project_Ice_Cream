@@ -78,9 +78,7 @@
   margin-top: 50px;
   margin-bottom: 0px;
 }
-.contact__button-list__button {
-  background: var(--text-white);
-  color: var(--text-red);
+.contact-button {
   height: 44px;
   min-width: 161px;
   border-radius: 22px;
@@ -89,17 +87,24 @@
   font-size: 16px;
   font-weight: 700;
 }
-.contact__button-list__button-first {
-  background: var(--text-red);
+.contact-button-second:hover {
+  background: #ecebeb;
+}
+.contact-button-second {
+  background: var(--text-white);
+  color: var(--text-red);
+}
+.contact-button-first {
+  background: #d41342;
   color: var(--text-white);
 }
-.contact__button-list__button-icon {
+.contact-button-icon {
   fill: var(--text-white);
   stroke: var(--text-red);
   margin-left: 10px;
 }
-.contact__button-list__button-first .contact__button-list__button-icon {
-  fill: var(--text-red);
+.contact-button-first .contact-button-icon {
+  fill: #d41342;
   stroke: var(--text-white);
 }
 @media screen and (min-width: 768px) {
@@ -165,7 +170,7 @@
     min-width: 330px;
     padding: 50px 43px;
   }
-  .contact__button-list__button {
+  .contact-button {
     padding-inline: 35px;
   }
   .contact__card__adress-description {
