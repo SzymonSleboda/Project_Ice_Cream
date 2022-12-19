@@ -128,9 +128,17 @@
     padding-right: 45px;
   }
 }
-// @media screen and (min-width: 768px) {
-// }
-// @media screen and (min-width: 1280px) {
-//   width: 1280px;
-//   padding-inline: 77px;
-// }
+.products__card {
+  position: relative;
+}
+.products__pic {
+  position: absolute;
+  top: -110px;
+  padding-left: 16px;
+
+  @media screen and (min-width: 768px) {
+    margin-left: -10px;
+  }
+  @media screen and (min-width: 1280px) {
+  }
+}
