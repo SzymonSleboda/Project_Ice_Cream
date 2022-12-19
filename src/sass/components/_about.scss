@@ -1,6 +1,5 @@
 .about__section {
   background-color: var(--background-footer);
-  width: 100vw;
   padding-bottom: 39px;
   padding-top: 125px;
   background-image: url(../images/mobile/milkback1x.png);
@@ -59,7 +58,6 @@
   color: var(--text-grey);
   padding-top: 47px;
   padding-inline: 30px;
-
 }
 
 .about__description--button {
@@ -99,6 +97,91 @@
   margin-left: 13.62px;
 }
 
+//  Modal
+
+.about-card {
+  display: flex;
+  text-align: center;
+  justify-content:flex-start;
+  margin: 0 auto;
+}
+
+.about__backdrop {
+  position: fixed;
+  display: flex;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #00000033;
+}
+
+.is-hidden {
+  transform: scaleY(0);
+}
+
+.about-modal {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  margin: auto;
+  background-color: var(--background-footer);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  padding: 8px 8px;
+  overflow: auto;
+}
+
+.about-modal svg{
+  fill:var(--text-pink);
+}
+
+.about-modal__button-close {
+  position: absolute;
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 0;
+  margin-left: 396px;
+  background-color: var(--background-footer);
+}
+.about-modal__title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1.147;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--text-red);
+  margin-top: 0;
+  box-sizing: content-box;
+  display: inline-block;
+  margin: 0 auto;
+  width: 370px;
+  height: 60px;
+  padding-top: 32px;
+}
+.about-modal__description{
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.583;
+  color: var(--text-grey);
+  padding-top: 20px;
+  padding-inline: 30px;
+}
+
+@media(min-width:480px){
+  .about-modal {
+      width: 480px;
+      height: 609px;
+      margin: auto;
+  }
+}
+
 @media (min-device-pixel-ratio: 2) and (max-width: 768px),
 (min-resolution: 192dpi) and (max-width: 768px),
 (min-resolution: 2dppx) and (max-width: 768px){
@@ -111,6 +194,7 @@
   .about__section{
     padding-bottom: 66px;
     padding-top: 130px;
+    background-image: none;
   }
   .about__image {
     width: 340px;
@@ -120,9 +204,6 @@
   .about__view {
     display: flex;
     flex-direction: row;
-  }
-  .about__section {
-    background-image: none;
   }
   .about__title{
     margin-bottom: 50px;
@@ -162,27 +243,22 @@
 }
 @media(min-width: 1280px) {
   .about__section {
-    padding-bottom: 66px;
-    padding-top: 130px;
-  }
-  .about__image {
-    width: 516px;
-    height: 516px;
-    margin-bottom: 0;
-  }
-    .about__view {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-  }
-  .about__section {
-    width: 100vw;
     padding-bottom: 39px;
     padding-top: 125px;
     background-image: url(../images/desktop/milkback1x.png);
     background-repeat: no-repeat;
     background-size: 100vw 534px;
     background-position: right 0 bottom -26px;
+  }
+  .about__image {
+    width: 516px;
+    height: 516px;
+    margin-bottom: 0;
+  }
+  .about__view {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
   }
   .about__title {
     margin-bottom: 55px;
