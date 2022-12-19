@@ -76,6 +76,7 @@
   align-items: center;
   gap: 10px;
   margin-top: 50px;
+  margin-bottom: 0px;
 }
 .contact__button-list__button {
   background: var(--text-white);
@@ -87,7 +88,6 @@
   cursor: pointer;
   font-size: 16px;
   font-weight: 700;
-  
 }
 .contact__button-list__button-first {
   background: var(--text-red);
