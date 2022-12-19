@@ -1,4 +1,79 @@
 h1 {
   color: var(--text-grey);
 }
-// to są próbne style, sprawdzałem czy działają, możecie wywalić
+.mobile-menu-button {
+  width: 209px;
+  height: 44px;
+  color: #d41443;
+  border: none;
+  background-color: #fff;
+  border-radius: 22px;
+  transition-duration: 250ms;
+
+  @media screen and (min-width: 768px) {
+    width: 186px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 209px;
+  }
+  &:focus {
+    background: #ecebeb;
+  }
+}
+
+.header__buy-button {
+  width: 160px;
+  height: 44px;
+  color: #d41443;
+  border: none;
+  background-color: #fff;
+  border-radius: 22px;
+  border: 1px solid #ffb8ca;
+  cursor: pointer;
+  transition-duration: 250ms;
+  &:hover {
+    background-color: #ecebeb;
+  }
+}
+.header__products-button {
+  width: 104px;
+  height: 40px;
+  background: #d41443;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  cursor: pointer;
+  transition-duration: 250ms;
+  &:hover {
+    background: #c7133e;
+  }
+}
+.header__made-button {
+  width: 138px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #d41443;
+  cursor: pointer;
+  border: 1px solid #ffb8ca;
+  transition-duration: 250ms;
+  &:hover {
+    background: #ecebeb;
+  }
+}
+// .header__arrow {
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+//   width: 30px;
+//   height: 30px;
+//   background-color: #fff;
+//   border-radius: 50%;
+//   border: 1px solid black;
+// }
