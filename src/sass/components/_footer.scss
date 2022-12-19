@@ -4,19 +4,18 @@
 }
 
 .footer__title {
-    display: block;
-    flex-direction: column;
+  display: block;
+  flex-direction: column;
   font-family: 'Titan One', cursive;
   gap: 17px;
-font-weight: 400;
-line-height: 1.15;
-padding-bottom: 43px;
-
+  font-weight: 400;
+  line-height: 1.15;
+  padding-bottom: 43px;
 }
 
 .footer__title--top {
-font-size: 18px;
-color: var(--text-pink);
+  font-size: 18px;
+  color: var(--text-pink);
 }
 
 .footer__title--top-break {
@@ -24,10 +23,10 @@ color: var(--text-pink);
 }
 
 .footer__title--bottom {
-font-size: 34px;
-letter-spacing: 0.04em;
-color: var(--text-red);
-margin: 0;
+  font-size: 34px;
+  letter-spacing: 0.04em;
+  color: var(--text-red);
+  margin: 0;
 }
 
 .footer__contact {
@@ -41,8 +40,7 @@ margin: 0;
 
 .footer__contact--red-text {
   text-decoration: none;
-color: var(--text-red);
-
+  color: var(--text-red);
 }
 
 .footer__copyright {
@@ -58,8 +56,8 @@ color: var(--text-red);
 }
 
 .footer__copyright--properties {
- display: flex;
- justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .footer__social-links-icon {
   fill: var(--text-pink);
@@ -72,10 +70,10 @@ color: var(--text-red);
   flex-direction: row;
   gap: 28px;
   justify-content: flex-end;
-  padding-bottom:46px;
+  padding-bottom: 46px;
 }
 
-@media screen and (min-width:768px) {
+@media screen and (min-width: 768px) {
   .footer__title {
     display: inline-block;
     padding-bottom: 16px;
@@ -112,7 +110,7 @@ color: var(--text-red);
   }
 }
 
-@media screen and (min-width:1200px) {
+@media screen and (min-width: 1200px) {
   .footer__title {
     display: inline-block;
     padding-bottom: 97px;
@@ -146,4 +144,3 @@ color: var(--text-red);
     // zrob to justify space around najlepiej ale jak pojawia sie ikony
   }
 }
-
