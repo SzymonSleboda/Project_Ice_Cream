@@ -39,7 +39,7 @@
 
     background-repeat: no-repeat;
     background-size: 19%, 46%;
-    background-position: right 40% bottom, right 30% top 55%;
+    background-position: right 40% bottom, right 30% top 40%;
   }
   @media screen and (min-width: 1280px) {
     max-width: 1280px;
@@ -88,16 +88,35 @@
   }
 }
 
-.menu-mobile {
+.menu {
+  display: flex;
+  max-width: 100%;
+  list-style: none;
+  justify-content: space-between;
+
+  @media screen and (min-width: 320px) and (max-width: 767px) {
+    max-width: 480px;
+    display: none;
+  }
+  @media screen and (min-width: 768px) and (max-width: 1279px) {
+    max-width: 768px;
+    display: none;
+  }
+  @media screen and (min-width: 1280px) {
+    max-width: 1280px;
+  }
+}
+
+.actions {
   display: flex;
 
   align-items: center;
+  justify-content: center;
   @media screen and (min-width: 320px) and (max-width: 767px) {
     max-width: 480px;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
     max-width: 768px;
-    padding-right: 30px;
   }
   @media screen and (min-width: 1280px) {
     max-width: 1280px;
@@ -107,7 +126,7 @@
 
 .burger {
   fill: #d41443;
-  background-color: #d41443;
+
   @media screen and (min-width: 320px) and (max-width: 767px) {
     max-width: 480px;
   }
@@ -116,6 +135,7 @@
   }
   @media screen and (min-width: 1280px) {
     max-width: 1280px;
+    display: none;
   }
 }
 .img {
@@ -378,10 +398,10 @@
   }
 }
 
-.button-red {
+.produckts-link--red {
   width: 62.4px;
-
   height: 24px;
+  margin-left: 8px;
   background-color: var(--text-red);
   color: var(--text-white);
   border-radius: 20px;
@@ -389,9 +409,9 @@
   font-style: normal;
   font-weight: 400;
   font-size: 8px;
-  line-height: 10px;
+  line-height: 2.9;
   cursor: pointer;
-  display: inline-block;
+  text-decoration: none;
   border: 0;
   text-align: center;
   @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -405,7 +425,7 @@
   }
 }
 
-.button-white {
+.produckts-link--white {
   width: 82.8px;
   height: 24px;
   margin-left: 8px;
@@ -416,9 +436,9 @@
   font-style: normal;
   font-weight: 400;
   font-size: 8px;
-  line-height: 10px;
+  line-height: 2.9;
   cursor: pointer;
-  display: inline-block;
+  text-decoration: none;
   border: 0;
   text-align: center;
   @media screen and (min-width: 320px) and (max-width: 767px) {
@@ -440,7 +460,7 @@
     max-width: 768px;
     width: 160px;
     height: 44px;
-
+    margin-left: 30px;
     background-color: var(--text-white);
     color: var(--text-red);
     border-radius: 20px;

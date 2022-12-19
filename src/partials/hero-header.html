@@ -1,116 +1,95 @@
+<!DOCTYPE html>
 <header class="header">
   <div class="container">
     <div class="wrapper">
-    <div class="panel">
-      <div class="ice-logo">
-        <svg width="199" height="50">
-          <use href="./images/SVG/logo 1.svg#image0_5_517"></use>
-        </svg>
-      </div>
-      <div class="navi">
-        <div class="menu-mobile">
-          <svg class="burger" width="20" height="12" viewBox="-15 0 20 30">
-            <use href="./images/SVG/icons.svg#icon-menu"></use>
+      <div class="panel">
+        <div class="ice-logo">
+          <svg width="199" height="50">
+            <use href="./images/SVG/logo 1.svg#image0_5_517"></use>
           </svg>
-  
+          <div class="menu-container js-menu-container" id="mobile-menu">
+            <button class="menu-toggle js-close-menu">
+              <svg><use href="./images/SVG/icons.svg#icon-close-icon"></use></svg>
+            </button>
+            <ul class="mobile-menu list-style">
+              <li class="mobile-menu-position--secondary">
+                <a href="" class="link-first">Home</a>
+              </li>
+              <li class="mobile-menu-position"><a href="#about" class="link">About us</a></li>
+              <li class="mobile-menu-position--secondary">
+                <a href="#about" class="link">How it's made?</a>
+              </li>
+              <li class="mobile-menu-position">
+                <a href="#products" class="link">Our products</a>
+              </li>
+              <li class="mobile-menu-position--secondary">
+                <a href="#contact" class="link">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        
-        <button class="button-buy">Buy now ></button>
-      
-     
-        
+        <div class="navi">
+          <ul class="menu">
+            <li class="menu-link"><a href="" class="link-first">Home</a></li>
+            <li class="menu-link"><a href="#about" class="link">About us</a></li>
+            <li class="menu-link">
+              <a href="#about" class="link">How it's made?</a>
+            </li>
+            <li class="menu-link"><a href="#products" class="link">Our products</a></li>
+            <li class="menu-link"><a href="#contact" class="link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="actions">
+          <button
+            class="menu-toggle js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="menu-toggle-icon">
+              <use href="./images/SVG/icons.svg#icon-burger-icon"></use>
+            </svg>
+          </button>
+          <button class="button-buy">Buy now ></button>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="products">
+          <h2 class="paragraf">
+            <span class="text-white">ice cream made with</span><span class="text-red">passion</span>
+          </h2>
+          <div class="buttons">
+            <a class="produckts-link--red" role="button" href="#products">Products</a>
+            <a class="produckts-link--white" role="button" href="#about">How it's made?</a>
+          </div>
+        </div>
+        <div class="numbers">
+          <div class="caffe">
+            <text class="number-caffe">16</text>
+            <text class="description"> caffe</text>
+          </div>
+          <div class="food-trucks">
+            <text class="number-ftruck">23</text>
+            <text class="description"> food trucks</text>
+          </div>
+        </div>
+      </div>
+      <div class="advert">
+        <div class="milk-eco">
+          <div class="milk-img"></div>
+          <div class="des">
+            <text class="milk-des"
+              >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+              incididunt ut labore et</text
+            >
+
+            <img class="arrow" src="images/tablet/arrow-right 3.png" alt="arrow" />
+          </div>
+        </div>
+        <div class="tasty"></div>
       </div>
     </div>
-
-
-    <div class="content">
-      <div class="products">
-                <h2 class="paragraf">
-                  <span class="text-white">ice cream made with</span><span class="text-red">passion</span>
-                </h2>
-                <div class="buttons">
-                  <button class="button-red">Products</button>
-                  <button class="button-white">How it's made?</button>
-                </div>
-              </div>
-                    <div class="numbers">
-              <div class="caffe">
-             <text class="number-caffe">16</text> 
-             <text class="description"> caffe</text>
-              </div>
-              <div class="food-trucks">
-                <text class="number-ftruck">23</text> 
-                <text class="description"> food trucks</text>
-
-
-              </div>
-
-
-                    </div>
-    </div>
-    <div class="advert">
-<div class="milk-eco">
-
-    <!-- <img class=""
-      src="images/tablet/milk1x.png"
-     alt="dzbanek mleka"
-    /> -->
-<div class="milk-img">
-
-  
-</div>
-    <div class="des">
-  <text class="milk-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et</text> 
-
-                    <img class="arrow"
-      src="images/tablet/arrow-right 3.png"
-     alt="arrow"
-                 />
   </div>
-  <!-- <svg width="199" height="50">
-    <use href="./images/SVG/icons.svg#icon-arrow"></use>
-  </svg> -->
-  
-</div>
-<div class="tasty">
-<!-- 
-  <img 
-  src="images/tablet/sotastypic@1x.png"
- alt="lacha w bikini z lodzikiem w ręce"
-/> -->
+</header>
 
-
-</div>
-
-    </div>
-  </div>
-</div>
-</header> 
-<!-- <button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-  <svg>
-    <use></use>
-<h1>Hello world</h1>
-<!--PRZYCISK DO URUCHMIANIA MENU-->
-<button class="menu-toggle js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
-  <svg class="menu-toggle-icon">
-    <use href="./images/SVG/icons.svg#icon-burger-icon"></use>
-  </svg>
-</button>
-<!--KONIEC PRZYCISKU-->
-<!--MENU MOBILNE-->
-<div class="menu-container js-menu-container" id="mobile-menu">
-  <button class="menu-toggle js-close-menu">
-    <svg><use href="./images/SVG/icons.svg#icon-close-icon"></use></svg>
-  </button>
-  <ul class="mobile-menu list-style">
-    <li class="mobile-menu-position--secondary"><a href="" class="link-first">Home</a></li>
-    <li class="mobile-menu-position"><a href="#about" class="link">About us</a></li>
-    <li class="mobile-menu-position--secondary">
-      <a href="#about" class="link">How it's made?</a>
-    </li>
-    <li class="mobile-menu-position"><a href="#products" class="link">Our products</a></li>
-    <li class="mobile-menu-position--secondary"><a href="#contact" class="link">Contact</a></li>
-  </ul>
-</div>
 <script defer src="js/mobile-menu.js"></script>
-<!--MENU MOBILNE END-->
