@@ -59,7 +59,6 @@
   color: var(--text-grey);
   padding-top: 47px;
   padding-inline: 30px;
-
 }
 
 .about__description--button {
@@ -79,6 +78,10 @@
   border: 0;
   padding: 0;
   cursor: pointer;
+
+  &:hover {
+    background: #ecebeb;
+  }
 }
 
 .about__button-text {
@@ -100,15 +103,15 @@
 }
 
 @media (min-device-pixel-ratio: 2) and (max-width: 768px),
-(min-resolution: 192dpi) and (max-width: 768px),
-(min-resolution: 2dppx) and (max-width: 768px){
-  .about__section{
-  background-image: url(../images/mobile/milkback2x.png);
+  (min-resolution: 192dpi) and (max-width: 768px),
+  (min-resolution: 2dppx) and (max-width: 768px) {
+  .about__section {
+    background-image: url(../images/mobile/milkback2x.png);
   }
 }
 
-@media(min-width: 768px) and (max-width: 1280px) {
-  .about__section{
+@media (min-width: 768px) and (max-width: 1280px) {
+  .about__section {
     padding-bottom: 66px;
     padding-top: 130px;
   }
@@ -124,21 +127,21 @@
   .about__section {
     background-image: none;
   }
-  .about__title{
+  .about__title {
     margin-bottom: 50px;
     font-size: 48px;
   }
-  .about__label{
+  .about__label {
     margin-bottom: 16px;
     font-size: 26px;
     line-height: 1.153;
   }
-  .about__description--first-para{
+  .about__description--first-para {
     font-size: 14px;
     line-height: 1.785;
     padding-inline: 17px 36px;
   }
-  .about__description--second-para{
+  .about__description--second-para {
     font-size: 14px;
     line-height: 1.785;
     padding-inline: 17px 36px;
@@ -148,19 +151,19 @@
     padding-top: 62px;
     padding-inline: 17px 36px;
   }
-  .about__list{
+  .about__list {
     margin-top: 50px;
   }
 }
 
-@media (min-device-pixel-ratio: 2) and (min-width:1280px),
-(min-resolution: 192dpi) and (min-width:1280px),
-(min-resolution: 2dppx) and (min-width:1280px) {
+@media (min-device-pixel-ratio: 2) and (min-width: 1280px),
+  (min-resolution: 192dpi) and (min-width: 1280px),
+  (min-resolution: 2dppx) and (min-width: 1280px) {
   .about__section {
     background-image: url(../images/desktop/milkback2x.png);
   }
 }
-@media(min-width: 1280px) {
+@media (min-width: 1280px) {
   .about__section {
     padding-bottom: 66px;
     padding-top: 130px;
@@ -170,7 +173,7 @@
     height: 516px;
     margin-bottom: 0;
   }
-    .about__view {
+  .about__view {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
@@ -200,7 +203,7 @@
     padding-inline: 74px 40px;
     letter-spacing: 0.04em;
   }
-    .about__description--second-para {
+  .about__description--second-para {
     font-size: 14px;
     line-height: 1.785;
     padding-inline: 74px 40px;
