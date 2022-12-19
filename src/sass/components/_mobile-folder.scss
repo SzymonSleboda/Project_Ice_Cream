@@ -12,8 +12,9 @@
   max-width: 20px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1280px) {
   .menu-toggle {
+    display: none;
   }
 }
 .menu-toggle:focus svg {
