@@ -74,3 +74,76 @@ color: var(--text-red);
   justify-content: flex-end;
   padding-bottom:46px;
 }
+
+@media screen and (min-width:768px) {
+  .footer__title {
+    display: inline-block;
+    padding-bottom: 16px;
+  }
+
+  .footer__title--top {
+    font-size: 26px;
+    letter-spacing: 0.04em;
+  }
+
+  .footer__title--bottom {
+    font-size: 48px;
+    letter-spacing: 0.06em;
+  }
+
+  .footer__contact {
+    font-size: 14px;
+    letter-spacing: 0.01em;
+  }
+
+  .footer_copyright {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .footer__social-links-list {
+    gap: 30px;
+    padding-left: 198px;
+  }
+
+  .footer__social-links-icon {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+@media screen and (min-width:1200px) {
+  .footer__title {
+    display: inline-block;
+    padding-bottom: 97px;
+  }
+
+  .footer__title--top {
+    font-size: 30px;
+    letter-spacing: 0.04em;
+  }
+
+  .footer__title--bottom {
+    font-size: 58px;
+    letter-spacing: 0.06em;
+  }
+
+  .footer__contact {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+  }
+
+  .footer_copyright {
+    flex-direction: row;
+    display: flex;
+    letter-spacing: 0.02;
+  }
+
+  .footer__social-links-list {
+    gap: 24px;
+    padding-left: 422px;
+
+    // zrob to justify space around najlepiej ale jak pojawia sie ikony
+  }
+}
+
