@@ -80,9 +80,10 @@
   border: 0;
   padding: 0;
   cursor: pointer;
-
+  
   &:hover {
     background: #ecebeb;
+    transition: 250ms;
   }
 }
 
@@ -101,6 +102,9 @@
 }
 
 .about__icon {
+  fill: var(--text-white);
+  stroke: var(--text-red);
+  max-height: 20px;
   margin-left: 13.62px;
 }
 
