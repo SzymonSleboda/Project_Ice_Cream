@@ -1,0 +1,146 @@
+.footer {
+  padding-top: 113px;
+  background-color: var(--background-footer);
+}
+
+.footer__title {
+  display: block;
+  flex-direction: column;
+  font-family: 'Titan One', cursive;
+  gap: 17px;
+  font-weight: 400;
+  line-height: 1.15;
+  padding-bottom: 43px;
+}
+
+.footer__title--top {
+  font-size: 18px;
+  color: var(--text-pink);
+}
+
+.footer__title--top-break {
+  margin: 0;
+}
+
+.footer__title--bottom {
+  font-size: 34px;
+  letter-spacing: 0.04em;
+  color: var(--text-red);
+  margin: 0;
+}
+
+.footer__contact {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 1.86;
+  padding-bottom: 43px;
+}
+
+.footer__contact--red-text {
+  text-decoration: none;
+  color: var(--text-red);
+}
+
+.footer__copyright {
+  color: var(--text-grey);
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  padding: 22px 0;
+  border-top: 1px solid #907e82;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.footer__copyright--properties {
+  display: flex;
+  justify-content: center;
+}
+.footer__social-links-icon {
+  fill: var(--text-pink);
+  width: 32px;
+  height: 32px;
+}
+
+.footer__social-links-list {
+  display: flex;
+  flex-direction: row;
+  gap: 28px;
+  justify-content: flex-end;
+  padding-bottom: 46px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__title {
+    display: inline-block;
+    padding-bottom: 16px;
+  }
+
+  .footer__title--top {
+    font-size: 26px;
+    letter-spacing: 0.04em;
+  }
+
+  .footer__title--bottom {
+    font-size: 48px;
+    letter-spacing: 0.06em;
+  }
+
+  .footer__contact {
+    font-size: 14px;
+    letter-spacing: 0.01em;
+  }
+
+  .footer_copyright {
+    flex-direction: row;
+    display: flex;
+  }
+
+  .footer__social-links-list {
+    gap: 30px;
+    padding-left: 198px;
+  }
+
+  .footer__social-links-icon {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__title {
+    display: inline-block;
+    padding-bottom: 97px;
+  }
+
+  .footer__title--top {
+    font-size: 30px;
+    letter-spacing: 0.04em;
+  }
+
+  .footer__title--bottom {
+    font-size: 58px;
+    letter-spacing: 0.06em;
+  }
+
+  .footer__contact {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+  }
+
+  .footer_copyright {
+    flex-direction: row;
+    display: flex;
+    letter-spacing: 0.02;
+  }
+
+  .footer__social-links-list {
+    gap: 24px;
+    padding-left: 422px;
+
+    // zrob to justify space around najlepiej ale jak pojawia sie ikony
+  }
+}
