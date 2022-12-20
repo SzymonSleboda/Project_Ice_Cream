@@ -64,6 +64,9 @@
   width: 32px;
   height: 32px;
 
+  cursor: pointer;
+
+
   &:hover,
   &:focus {
     fill: #D41443;
@@ -119,9 +122,10 @@
 }
 
 @media screen and (min-width: 1200px) {
+
 .footer {
   padding-top: 167px;
-}
+
   .footer__title {
     display: inline-block;
     padding-bottom: 97px;
