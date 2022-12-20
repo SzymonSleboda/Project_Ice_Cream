@@ -13,14 +13,11 @@
   padding-bottom: 43px;
   flex-wrap: wrap;
   width: 234px;
-  display: flex;
 }
 
 .footer__title--top {
   font-size: 18px;
   color: var(--text-pink);
-  flex-wrap: wrap;
-  display: flex;
 
 }
 
@@ -30,6 +27,7 @@
   color: var(--text-red);
   margin: 0;
   flex-wrap: wrap;
+  padding-top: 16px;
 
 
 }
@@ -67,7 +65,8 @@
   font-size: 14px;
   font-weight: 700;
   line-height: 1.5;
-  width: 150px;
+  width: 140px;
+  margin: 0 auto;
 }
 
 .footer__social-links-item {
@@ -112,8 +111,9 @@ cursor: pointer;
   
   .footer__title {
     display: inline-block;
-    padding-bottom: 16px;
+    padding-bottom: 91px;
     width: 340px;
+  
   }
 
   .footer__title--top {
@@ -142,11 +142,21 @@ width: 100%;
 
   .footer__social-links-list {
     gap: 30px;
+    padding-bottom: 46px;
   }
   .footer__social-links {
     justify-content: flex-end;
     align-items: flex-end;
     display: flex;
+  }
+  .footer__position--first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__position--second {
+    display: flex;
+    flex-direction: column;
   }
 
 }
@@ -154,10 +164,11 @@ width: 100%;
 @media screen and (min-width: 1200px) {
 .footer {
   padding-top: 167px;
-
+}
   .footer__title {
     display: inline-block;
     padding-bottom: 97px;
+    width: 474px;
   }
 
   .footer__title--top {
@@ -183,12 +194,10 @@ width: 100%;
 
   .footer__social-links-list {
     gap: 24px;
-    
     justify-content: flex-end;
       align-items: flex-end;
     padding: 0;
-
-    // zrob to justify space around najlepiej ale jak pojawia sie ikony
+    padding-bottom: 50px;
   }
 
   .footer__social-links-item {
@@ -205,5 +214,14 @@ width: 100%;
     justify-content: flex-end;
     align-items: flex-end;
   }
+
+  .footer__position--first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
   }
-}
+  .footer__position--second {
+    display: flex;
+    flex-direction: column;
+  }
+  }
