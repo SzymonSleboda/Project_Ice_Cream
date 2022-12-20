@@ -83,6 +83,7 @@ cursor: pointer;
 &:hover,
 &:focus {
   background-color: #d41443;
+  transition-duration: 250ms;
 }
 }
 
