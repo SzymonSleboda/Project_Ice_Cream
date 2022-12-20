@@ -63,8 +63,6 @@
   fill: var(--text-pink);
   width: 32px;
   height: 32px;
-<<<<<<< Updated upstream
-=======
   cursor: pointer;
 
   &:hover,
@@ -73,7 +71,6 @@
     color:  #D41443;
 
   }
->>>>>>> Stashed changes
 }
 
 .footer__social-links-list {
@@ -121,7 +118,7 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
   .footer__title {
     display: inline-block;
     padding-bottom: 97px;
