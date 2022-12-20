@@ -11,15 +11,14 @@
   font-weight: 400;
   line-height: 1.15;
   padding-bottom: 43px;
+  flex-wrap: wrap;
+  width: 234px;
 }
 
 .footer__title--top {
   font-size: 18px;
   color: var(--text-pink);
-}
 
-.footer__title--top-break {
-  margin: 0;
 }
 
 .footer__title--bottom {
@@ -27,6 +26,10 @@
   letter-spacing: 0.04em;
   color: var(--text-red);
   margin: 0;
+  flex-wrap: wrap;
+  padding-top: 16px;
+
+
 }
 
 .footer__contact {
@@ -62,23 +65,34 @@
   font-size: 14px;
   font-weight: 700;
   line-height: 1.5;
-  width: 150px;
-  @media screen and (min-width: 480px) {
-    width: auto;
-  }
+  width: 140px;
+  margin: 0 auto;
 }
+
+.footer__social-links-item {
+background-color: var(--text-pink);
+border-radius: 50%;
+width: 34px;
+height: 34px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+padding: 0;
+cursor: pointer;
+
+&:hover,
+&:focus {
+  background-color: #d41443;
+}
+}
+
 .footer__social-links-icon {
-  fill: var(--text-pink);
-  width: 32px;
-  height: 32px;
+  fill: white;
+  width: 20px;
+  height: 22px;
 
   cursor: pointer;
-
-  &:hover,
-  &:focus {
-    fill: #d41443;
-    color: #d41443;
-  }
 }
 
 .footer__social-links-list {
@@ -87,12 +101,19 @@
   gap: 28px;
   justify-content: flex-end;
   padding-bottom: 46px;
+  margin: 0;
 }
 
 @media screen and (min-width: 768px) {
+  .footer {
+    padding-top:165px;
+  }
+  
   .footer__title {
     display: inline-block;
-    padding-bottom: 16px;
+    padding-bottom: 91px;
+    width: 340px;
+  
   }
 
   .footer__title--top {
@@ -115,64 +136,92 @@
     display: flex;
   }
 
-  .footer__social-links-list {
-    gap: 30px;
-    padding-left: 198px;
+  .footer__copyright--properties {
+width: 100%;
   }
 
-  .footer__social-links-icon {
-    width: 34px;
-    height: 34px;
+  .footer__social-links-list {
+    gap: 30px;
+    padding-bottom: 46px;
   }
+  .footer__social-links {
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+  }
+  .footer__position--first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__position--second {
+    display: flex;
+    flex-direction: column;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
-  .footer {
-    padding-top: 167px;
-
-    .footer__title {
-      display: inline-block;
-      padding-bottom: 97px;
-    }
-
-    .footer__title--top {
-      font-size: 30px;
-      letter-spacing: 0.04em;
-    }
-
-    .footer__title--bottom {
-      font-size: 58px;
-      letter-spacing: 0.06em;
-    }
-
-    .footer__contact {
-      font-size: 16px;
-      letter-spacing: 0.02em;
-    }
-
-    .footer_copyright {
-      flex-direction: row;
-      display: flex;
-      letter-spacing: 0.02;
-    }
-
-    .footer__social-links-list {
-      gap: 24px;
-
-      justify-content: flex-end;
-      align-items: flex-end;
-      padding: 0;
-
-      // zrob to justify space around najlepiej ale jak pojawia sie ikony
-    }
-
-    .footer__social-links {
-      display: inline-block;
-    }
-
-    .footer__position {
-      display: flex;
-      justify-content: space-between;
-    }
-  }
+.footer {
+  padding-top: 167px;
 }
+  .footer__title {
+    display: inline-block;
+    padding-bottom: 97px;
+    width: 474px;
+  }
+
+  .footer__title--top {
+    font-size: 30px;
+    letter-spacing: 0.04em;
+  }
+
+  .footer__title--bottom {
+    font-size: 58px;
+    letter-spacing: 0.06em;
+  }
+
+  .footer__contact {
+    font-size: 16px;
+    letter-spacing: 0.02em;
+  }
+
+  .footer_copyright {
+    flex-direction: row;
+    display: flex;
+    letter-spacing: 0.02;
+  }
+
+  .footer__social-links-list {
+    gap: 24px;
+    justify-content: flex-end;
+      align-items: flex-end;
+    padding: 0;
+    padding-bottom: 50px;
+  }
+
+  .footer__social-links-item {
+    width: 34px;
+    height: 34px;
+  }
+
+  .footer__social-links-icon {
+    width: 22px;
+    height: 25px;
+  }
+  .footer__social-links {
+    display: inline-block;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .footer__position--first {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .footer__position--second {
+    display: flex;
+    flex-direction: column;
+  }
+  }
