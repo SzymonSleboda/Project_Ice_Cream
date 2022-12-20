@@ -137,7 +137,7 @@
     gap: 15px;
     margin-top: 80px;
   }
-  .contact__button-list__button {
+  .contact-button {
     padding-inline: 30px;
   }
   .contact__card__date {
@@ -176,4 +176,16 @@
   .contact__card__adress-description {
     line-height: 30px;
   }
+}
+.backdrop-contacts {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100vw;
+  height: 100vw;
+  background-color: rgba(0 0 0 / 0.5);
+  transition: transform 0.25s;
+}
+.is-hidden-contacts {
+  transform: translateX(-100%);
 }
