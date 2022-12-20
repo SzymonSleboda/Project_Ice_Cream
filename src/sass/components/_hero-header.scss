@@ -218,7 +218,7 @@
     flex-direction: column;
     width: 50px;
     // height: 40px;
-    background: url(../images/tablet/Ellipse1@1x.png);
+    background: url(../images/tablet/ellipse1@1x.png);
     background-color: var(--background-header);
     background-size: auto;
     background-repeat: no-repeat;
@@ -233,7 +233,7 @@
     flex-direction: column;
     width: 70px;
     // height: 40px;
-    background: url(../images/desktop/Ellipse1.png);
+    background: url(../images/desktop/ellipse1.png);
     background-color: var(--background-header);
     background-size: auto;
     background-repeat: no-repeat;
@@ -276,7 +276,7 @@
     flex-direction: column;
     width: 50px;
     // height: 40px;
-    background: url(../images/tablet/Ellipse1@1x.png);
+    background: url(../images/tablet/ellipse1@1x.png);
     background-color: var(--background-header);
     background-size: auto;
     background-repeat: no-repeat;
@@ -290,7 +290,7 @@
     flex-direction: column;
     width: 70px;
     // height: 40px;
-    background: url(../images/desktop/Ellipse1.png);
+    background: url(../images/desktop/ellipse1.png);
     background-color: var(--background-header);
     background-size: auto;
     background-repeat: no-repeat;
@@ -487,6 +487,16 @@
   }
 }
 .button-buy {
+  background: var(--text-white);
+  color: var(--text-red);
+  transition-duration: 250ms;
+  height: 44px;
+  min-width: 161px;
+  border-radius: 22px;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
   @media screen and (min-width: 320px) and (max-width: 767px) {
     max-width: 480px;
     display: none;
@@ -533,6 +543,11 @@
     border: 0;
     text-align: center;
   }
+}
+
+.button-buy:hover,
+.button-buy:focus {
+  background: #ecebeb;
 }
 
 .advert {
@@ -929,4 +944,52 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.mobile-menu-button {
+  width: 209px;
+  height: 44px;
+  color: #d41443;
+  border: none;
+  background-color: #fff;
+  border-radius: 22px;
+  transition-duration: 250ms;
+
+  @media screen and (min-width: 768px) {
+    width: 186px;
+  }
+  @media screen and (min-width: 1280px) {
+    width: 209px;
+  }
+}
+.mobile-menu-button:focus {
+  background: #ecebeb;
+}
+
+.header__buy-button {
+  width: 160px;
+  height: 44px;
+  color: #d41443;
+  border: none;
+  background-color: #fff;
+  border-radius: 22px;
+  border: 1px solid #ffb8ca;
+  cursor: pointer;
+  &:hover {
+    background-color: #ecebeb;
+  }
+}
+.header__products-button {
+  width: 104px;
+  height: 40px;
+  background: #d41443;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  font-weight: 400;
+  font-size: 14px;
+}
+.mobile__button-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
 }
