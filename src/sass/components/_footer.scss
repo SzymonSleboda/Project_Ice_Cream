@@ -63,6 +63,17 @@
   fill: var(--text-pink);
   width: 32px;
   height: 32px;
+<<<<<<< Updated upstream
+=======
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    fill: #D41443;
+    color:  #D41443;
+
+  }
+>>>>>>> Stashed changes
 }
 
 .footer__social-links-list {
