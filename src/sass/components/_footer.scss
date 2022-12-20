@@ -29,7 +29,6 @@
   flex-wrap: wrap;
   padding-top: 16px;
 
-
 }
 
 .footer__contact {
@@ -51,7 +50,7 @@
   display: flex;
   margin: 0 auto;
   justify-content: center;
-  padding: 22px 0;
+  padding: 25px 0 22px 0;
   border-top: 1px solid #907e82;
   flex-direction: column;
   margin: 0 auto;
@@ -89,10 +88,22 @@ cursor: pointer;
 
 .footer__social-links-icon {
   fill: white;
-  width: 20px;
-  height: 22px;
-
   cursor: pointer;
+}
+
+.footer__social-links-icon--github {
+width:20px;
+height:20px;
+}
+
+.footer__social-links-icon--telegram {
+  width:20px;
+  height:16px;
+}
+
+.footer__social-links-icon--facebook {
+  width:9px;
+  height:20px;
 }
 
 .footer__social-links-list {
@@ -131,9 +142,10 @@ cursor: pointer;
     letter-spacing: 0.01em;
   }
 
-  .footer_copyright {
+  .footer__copyright {
     flex-direction: row;
     display: flex;
+    padding: 29px 0px 18px 0;
   }
 
   .footer__copyright--properties {
@@ -168,7 +180,7 @@ width: 100%;
   .footer__title {
     display: inline-block;
     padding-bottom: 97px;
-    width: 474px;
+    width: 500px;
   }
 
   .footer__title--top {
@@ -186,10 +198,11 @@ width: 100%;
     letter-spacing: 0.02em;
   }
 
-  .footer_copyright {
+  .footer__copyright {
     flex-direction: row;
     display: flex;
     letter-spacing: 0.02;
+    padding: 9px 0px 10px 0px;
   }
 
   .footer__social-links-list {
@@ -205,10 +218,6 @@ width: 100%;
     height: 34px;
   }
 
-  .footer__social-links-icon {
-    width: 22px;
-    height: 25px;
-  }
   .footer__social-links {
     display: inline-block;
     justify-content: flex-end;
