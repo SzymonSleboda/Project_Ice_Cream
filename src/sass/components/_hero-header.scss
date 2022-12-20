@@ -712,7 +712,7 @@
   left: 0;
   top: 0;
   width: 100%;
-
+  z-index: 1;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
   transition: cubic-bezier(250ms);
@@ -826,6 +826,7 @@
   padding-bottom: 30px;
   color: #757575;
 }
+
 .modal-order__label {
   position: relative;
   display: flex;
