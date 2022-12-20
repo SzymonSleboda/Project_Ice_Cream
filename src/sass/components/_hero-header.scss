@@ -45,11 +45,11 @@
     max-width: 1280px;
     max-height: 100%;
     justify-content: space-between;
-    background: url(../images/tablet/bigice2x.png), url(../images/tablet/ellipse3@1x.png);
+    background: url(../images/desktop/bigice.png), url(../images/desktop/ellipse3.png);
 
     background-repeat: no-repeat;
-    background-size: 17%, 43%;
-    background-position: right 40% bottom, right 30% top 60%;
+    background-size: 20%, 46%;
+    background-position: right 38% bottom, right 29% top 40%;
   }
 }
 .panel {
@@ -119,9 +119,12 @@
   }
   @media screen and (min-width: 1280px) {
     max-width: 1280px;
+    padding-left: 110px;
   }
 }
-
+.menu-link--navi {
+  padding-left: 30px;
+}
 .burger {
   fill: #d41443;
 
@@ -457,6 +460,9 @@
   }
   @media screen and (min-width: 1280px) {
     max-width: 1280px;
+    width: 102px;
+    height: 40px;
+    font-size: 14px;
   }
 }
 
@@ -484,6 +490,9 @@
   }
   @media screen and (min-width: 1280px) {
     max-width: 1280px;
+    width: 138px;
+    height: 40px;
+    font-size: 14px;
   }
 }
 .button-buy {
@@ -563,10 +572,9 @@
   }
   @media screen and (min-width: 1280px) {
     max-width: 100%;
-
     display: flex;
     justify-content: space-between;
-    padding-top: 54px;
+    padding-top: 40px;
     padding-left: 36px;
   }
 }
