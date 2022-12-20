@@ -58,6 +58,14 @@
 .footer__copyright--properties {
   display: flex;
   justify-content: center;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  width: 150px;
+  @media screen and (min-width: 480px) {
+    width: auto;
+  }
 }
 .footer__social-links-icon {
   fill: var(--text-pink);
@@ -66,13 +74,10 @@
 
   cursor: pointer;
 
-
   &:hover,
   &:focus {
-    fill: #D41443;
-    color:  #D41443;
-
-
+    fill: #d41443;
+    color: #d41443;
   }
 }
 
@@ -122,53 +127,52 @@
 }
 
 @media screen and (min-width: 1200px) {
+  .footer {
+    padding-top: 167px;
 
-.footer {
-  padding-top: 167px;
+    .footer__title {
+      display: inline-block;
+      padding-bottom: 97px;
+    }
 
-  .footer__title {
-    display: inline-block;
-    padding-bottom: 97px;
+    .footer__title--top {
+      font-size: 30px;
+      letter-spacing: 0.04em;
+    }
+
+    .footer__title--bottom {
+      font-size: 58px;
+      letter-spacing: 0.06em;
+    }
+
+    .footer__contact {
+      font-size: 16px;
+      letter-spacing: 0.02em;
+    }
+
+    .footer_copyright {
+      flex-direction: row;
+      display: flex;
+      letter-spacing: 0.02;
+    }
+
+    .footer__social-links-list {
+      gap: 24px;
+
+      justify-content: flex-end;
+      align-items: flex-end;
+      padding: 0;
+
+      // zrob to justify space around najlepiej ale jak pojawia sie ikony
+    }
+
+    .footer__social-links {
+      display: inline-block;
+    }
+
+    .footer__position {
+      display: flex;
+      justify-content: space-between;
+    }
   }
-
-  .footer__title--top {
-    font-size: 30px;
-    letter-spacing: 0.04em;
-  }
-
-  .footer__title--bottom {
-    font-size: 58px;
-    letter-spacing: 0.06em;
-  }
-
-  .footer__contact {
-    font-size: 16px;
-    letter-spacing: 0.02em;
-  }
-
-  .footer_copyright {
-    flex-direction: row;
-    display: flex;
-    letter-spacing: 0.02;
-  }
-
-  .footer__social-links-list {
-    gap: 24px;
-    
-    justify-content: flex-end;
-    align-items:flex-end;
-    padding: 0;
-
-    // zrob to justify space around najlepiej ale jak pojawia sie ikony
-  }
-
-  .footer__social-links {
-    display: inline-block;
-  }
-
-  .footer__position {
-    display: flex;
-    justify-content: space-between;
-  }
-}
 }
