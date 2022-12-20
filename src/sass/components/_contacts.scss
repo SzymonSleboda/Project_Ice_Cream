@@ -87,16 +87,21 @@
   font-size: 16px;
   font-weight: 700;
 }
-.contact-button-second:hover {
+.contact-button-second:hover, .contact-button-second:focus {
   background: #ecebeb;
 }
 .contact-button-second {
   background: var(--text-white);
   color: var(--text-red);
+    transition-duration: 250ms;
 }
 .contact-button-first {
   background: #d41342;
   color: var(--text-white);
+  transition-duration: 250ms;
+}
+.contact-button-first:hover, .contact-button-first:focus {
+background: var(--background-mobile-menu);
 }
 .contact-button-icon {
   fill: var(--text-white);
