@@ -63,6 +63,14 @@
   fill: var(--text-pink);
   width: 32px;
   height: 32px;
+
+  &:hover,
+  &:focus {
+    fill: #D41443;
+    color:  #D41443;
+
+
+  }
 }
 
 .footer__social-links-list {
@@ -110,7 +118,10 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1200px) {
+.footer {
+  padding-top: 167px;
+}
   .footer__title {
     display: inline-block;
     padding-bottom: 97px;
@@ -139,8 +150,20 @@
 
   .footer__social-links-list {
     gap: 24px;
-    padding-left: 422px;
+    
+    justify-content: flex-end;
+    align-items:flex-end;
+    padding: 0;
 
     // zrob to justify space around najlepiej ale jak pojawia sie ikony
+  }
+
+  .footer__social-links {
+    display: inline-block;
+  }
+
+  .footer__position {
+    display: flex;
+    justify-content: space-between;
   }
 }
