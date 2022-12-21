@@ -20,7 +20,6 @@
 .menu-toggle:focus svg {
   fill: var(--text-white);
   transition-duration: 250ms;
-  transform: rotate(90deg);
 }
 .menu-container {
   position: fixed;
