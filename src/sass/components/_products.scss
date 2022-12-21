@@ -152,6 +152,10 @@
     margin-left: 40px;
   }
 }
+.products__img {
+  width: 100%;
+  height: auto;
+}
 
 .products__ice-cream::before {
   background-image: url('../images/mobile/pink-ice1x.png');
