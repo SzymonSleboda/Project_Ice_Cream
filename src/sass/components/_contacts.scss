@@ -87,6 +87,7 @@
   cursor: pointer;
   font-size: 16px;
   font-weight: 700;
+  
 }
 .contact__button-list__button-first {
   background: var(--text-red);
@@ -147,7 +148,7 @@
     line-height: 24px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .contact {
     background-image: url(../images/desktop/clients.back2x.png),
       linear-gradient(to bottom, var(--text-white) 15%, var(--background-footer) 15%);

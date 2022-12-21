@@ -129,6 +129,7 @@
     padding-right: 45px;
   }
 }
+
 .products__card {
   position: relative;
 }
@@ -175,3 +176,15 @@
   top: -113px;
   left: 20px;
 }
+
+.products__arrow {
+  display: flex;
+  justify-content: center;
+}
+
+// @media screen and (min-width: 768px) {
+// }
+// @media screen and (min-width: 1280px) {
+//   width: 1280px;
+//   padding-inline: 77px;
+// }
