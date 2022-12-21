@@ -32,23 +32,24 @@
   margin-top: 0;
 }
 
-.about__view {
+.about__image {
+  width: 90%;
+  height: auto;
+}
+.about__description {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 90%;
 }
-
-.about__image {
-  width: 280px;
-  height: 279px;
-}
-
 .about__description--first-para {
-  max-width: 463px;
+  // max-width: 463px;
+  // width: 90%;
   font-weight: 500;
   font-size: 12px;
   line-height: 1.583;
   color: var(--text-black);
+
 }
 
 .about__description--second-para {
@@ -58,11 +59,13 @@
   font-size: 12px;
   line-height: 1.583;
   color: var(--text-grey);
+
   padding-top: 27px;
 }
 
 .about__description--button {
   padding-top: 27px;
+
 }
 
 .about__button {
