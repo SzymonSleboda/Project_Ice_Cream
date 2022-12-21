@@ -995,3 +995,24 @@
   width: 100%;
   justify-content: center;
 }
+
+.link-header--secondary {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.31;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--text-red);
+  text-decoration: none;
+}
+.link-header {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.31;
+  letter-spacing: 0em;
+  text-align: left;
+  color: var(--text-white);
+  text-decoration: none;
+}
