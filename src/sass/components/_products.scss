@@ -93,6 +93,7 @@
   margin-top: 161px;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+
   @media screen and (min-width: 768px) {
     margin-top: 152px;
   }
@@ -165,7 +166,8 @@
   height: 252px;
   position: absolute;
   top: -113px;
-  left: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .products__ice-coffee::before {
   background-image: url('../images/mobile/ice-coffe1x.png');
@@ -175,7 +177,8 @@
   height: 252px;
   position: absolute;
   top: -113px;
-  left: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 .products__shake::before {
   background-image: url('../images/mobile/shake1x.png');
@@ -185,7 +188,8 @@
   height: 252px;
   position: absolute;
   top: -113px;
-  left: 20px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .products__arrow {
