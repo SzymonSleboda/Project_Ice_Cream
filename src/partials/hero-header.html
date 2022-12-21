@@ -9,28 +9,18 @@
             <use href="./images/SVG/logo 1.svg#image0_5_517"></use>
           </svg>
         </a>
-        <div class="navi">
-          <ul class="menu">
-            <li class="menu-link"><a href="" class="link-first">Home</a></li>
-            <li class="menu-link"><a href="#about" class="link">About us</a></li>
-            <li class="menu-link">
-              <a href="#about" class="link">How it's made?</a>
-            </li>
-            <li class="menu-link"><a href="#products" class="link">Our products</a></li>
-            <li class="menu-link"><a href="#contact" class="link">Contact</a></li>
-          </ul>
-        </div>
 
-        <!-- <button class="header__buy-button">
-          Buy now<svg class="contact__button-list__button-icon" width="12px" height="10px">
-            <use href="./images/SVG/icons.svg#icon-arrow"></use>
-          </svg>
-        </button> -->
-        <!-- <button class="header__products-button">Products</button>
-        <button class="header__made-button">How it's made?</button> -->
-        <!-- <div class="header__arrow">
-          <img src="./images/PNG/arrow-right.png" width="26" height="26" alt="strzałka" />
-        </div> -->
+        <ul class="menu">
+          <li class="menu-link menu-link--navi"><a href="" class="link-first">Home</a></li>
+          <li class="menu-link menu-link--navi"><a href="#about" class="link">About us</a></li>
+          <li class="menu-link menu-link--navi">
+            <a href="#about" class="link">How it's made?</a>
+          </li>
+          <li class="menu-link menu-link--navi">
+            <a href="#products" class="link">Our products</a>
+          </li>
+          <li class="menu-link menu-link--navi"><a href="#contact" class="link">Contact</a></li>
+        </ul>
 
         <div class="menu-container js-menu-container" id="mobile-menu">
           <button class="menu-toggle js-close-menu">
@@ -72,8 +62,7 @@
               <use href="./images/SVG/icons.svg#icon-burger-icon"></use>
             </svg>
           </button>
-
-          <button class="button-buy">
+          <button class="button-buy" data-modal-open>
             Buy now<svg class="contact-button-icon" width="12px" height="10px">
               <use href="./images/SVG/icons.svg#icon-arrow"></use>
             </svg>

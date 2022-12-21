@@ -67,9 +67,9 @@
 }
 
 
-@media (min-device-pixel-ratio: 2) and (min-width:320px) and (max-width:768px),
-(min-resolution: 192dpi) and (min-width:320px) and (max-width:768px),
-(min-resolution: 2dppx) and (min-width:320px) and (max-width:768px){
+@media (min-device-pixel-ratio: 2) and (max-width:768px),
+(min-resolution: 192dpi) and (max-width:768px),
+(min-resolution: 2dppx) and (max-width:768px){
     .advantage-card__icon1::before{
         background-image: url(../images/mobile/icon1@2x.png)
     }
