@@ -4,7 +4,7 @@
   display: flex;
   justify-content: center;
 
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 100%;
     background: url(../images/mobile/bigice1x.png), url(../images/mobile/ellipse1x.png);
     background-color: var(--background-header);
@@ -28,7 +28,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -58,7 +58,7 @@
   padding-top: 6px;
   justify-content: space-between;
 
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -76,7 +76,7 @@
 
   justify-content: space-between;
   padding-top: 6px;
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -93,7 +93,7 @@
   list-style: none;
   justify-content: space-between;
 
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
   }
@@ -111,7 +111,7 @@
 
   align-items: center;
   justify-content: center;
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -128,7 +128,7 @@
 .burger {
   fill: #d41443;
 
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -141,7 +141,7 @@
 }
 .img {
   width: auto;
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -157,7 +157,7 @@
   padding-top: 115px;
   display: flex;
   flex-direction: column;
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -176,7 +176,7 @@
   }
 }
 .product {
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -188,7 +188,7 @@
 }
 
 .numbers {
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
   }
@@ -210,7 +210,7 @@
   }
 }
 .caffe {
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
   }
@@ -254,7 +254,7 @@
   line-height: 10px;
   text-align: justify;
   color: var(--text-white);
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
   }
@@ -268,7 +268,7 @@
   }
 }
 .food-trucks {
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
   }
@@ -311,7 +311,7 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--text-red);
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
   }
@@ -334,7 +334,7 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--text-red);
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
   }
@@ -352,7 +352,7 @@
   flex-wrap: wrap;
   align-items: flex-end;
   justify-content: flex-start;
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -382,7 +382,7 @@
   line-height: 1.15;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -406,7 +406,7 @@
   line-height: 0.97;
   letter-spacing: 0.04em;
   text-transform: uppercase;
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -421,7 +421,7 @@
 .buttons {
   display: flex;
   justify-content: flex-start;
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -452,7 +452,7 @@
   text-decoration: none;
   border: 0;
   text-align: center;
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -506,7 +506,7 @@
   cursor: pointer;
   font-size: 16px;
   font-weight: 700;
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
   }
@@ -560,7 +560,7 @@
 }
 
 .advert {
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
@@ -579,7 +579,7 @@
   }
 }
 .tasty {
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
   }
@@ -608,7 +608,7 @@
 }
 
 .milk-eco {
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
   }
@@ -624,7 +624,7 @@
   }
 }
 .milk-img {
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
   }
@@ -652,7 +652,7 @@
   }
 }
 .milk-des {
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
   }
@@ -681,7 +681,7 @@
 }
 
 .arrow {
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
   }
@@ -697,7 +697,7 @@
   }
 }
 .des {
-  @media screen and (min-width: 320px) and (max-width: 767px) {
+  @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
   }
