@@ -4,7 +4,7 @@
   padding-top: 125px;
   background-image: url(../images/mobile/milkback1x.png);
   background-repeat: no-repeat;
-  background-size: 100vw 133px;
+  background-size: 100vw;
   background-position: right 0 bottom 146px;
 }
 
@@ -49,7 +49,7 @@
   font-size: 12px;
   line-height: 1.583;
   color: var(--text-black);
-  padding-inline: 0;
+
 }
 
 .about__description--second-para {
@@ -59,13 +59,13 @@
   font-size: 12px;
   line-height: 1.583;
   color: var(--text-grey);
-  padding-top: 47px;
-  padding-inline: 0;
+
+  padding-top: 27px;
 }
 
 .about__description--button {
-  padding-top: 47px;
-  padding-inline: 0;
+  padding-top: 27px;
+
 }
 
 .about__button {
@@ -134,7 +134,7 @@
 }
 
 .is-hidden-about {
-  transform: scaleY(0);
+  transform:scaleX(0);
 }
 
 .about-modal {
@@ -162,7 +162,7 @@
   height: 30px;
   border-radius: 50%;
   border: 0;
-  margin-left: 396px;
+  margin-left:calc(100vw - 15%);
   background-color: var(--background-footer);
 }
 
@@ -179,8 +179,6 @@
   box-sizing: content-box;
   display: inline-block;
   margin: 0 auto;
-  width: 370px;
-  height: 60px;
   padding-top: 32px;
 }
 
@@ -199,6 +197,9 @@
     width: 480px;
     height: 609px;
     margin: auto;
+  }
+  .about-modal__button-close{
+    margin-left: 396px;
   }
 }
 
@@ -267,7 +268,7 @@
     padding-top: 125px;
     background-image: url(../images/desktop/milkback1x.png);
     background-repeat: no-repeat;
-    background-size: 100vw 534px;
+    background-size: 100vw;
     background-position: right 0 bottom -26px;
   }
   .about__image {
