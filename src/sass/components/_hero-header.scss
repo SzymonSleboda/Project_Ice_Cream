@@ -757,7 +757,7 @@
   z-index: 1;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.2);
-  transition: cubic-bezier(250ms);
+  transition: cubic-bezier(250ms);  z-index: 3;
 }
 .modal__is-hidden {
   opacity: 0;
