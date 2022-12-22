@@ -90,6 +90,10 @@ cursor: pointer;
 .footer__social-links-icon {
   fill: white;
   cursor: pointer;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer__social-links-icon--github {

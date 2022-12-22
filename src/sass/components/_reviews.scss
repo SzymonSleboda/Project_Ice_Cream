@@ -1,0 +1,218 @@
+.container {
+  margin: 0 20px;
+}
+.customer-inner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.customer__photo {
+  text-align: center;
+  margin-bottom: 29px;
+}
+.customer__comment-inner {
+  background: #fafafa;
+  margin-bottom: 42px;
+  padding-block: 43px 26px;
+  z-index: 2;
+}
+.customer__comment {
+  font-size: 12px;
+  padding: 0 15px;
+  text-align: center;
+  line-height: 255%;
+  color: #000000;
+  background: repeating-linear-gradient(#fafafa, #fafafa 29px, #e1e1e1 30px);
+  position: relative;
+  z-index: 1;
+}
+.customer__comment-comma::before {
+  content: '';
+  position: absolute;
+  width: 54px;
+  height: 40px;
+  left: 0px;
+  top: -15px;
+  z-index: -1;
+}
+.customer__tittle-home::before {
+  content: '';
+  position: absolute;
+  width: 32px;
+  height: 4px;
+  left: 125px;
+  top: -35px;
+}
+.customer__tittle {
+  text-align: center;
+  font-size: 14px;
+  line-height: 186%;
+  color: #000000;
+  margin-bottom: 80px;
+  position: relative;
+}
+.customer__tittle-home::after {
+  content: '';
+  position: absolute;
+  width: 73px;
+  height: 12px;
+  left: 105px;
+  top: 35px;
+}
+@media screen and (min-width: 480px) {
+  .customer__comment-inner {
+    background: #fafafa;
+    margin-bottom: 42px;
+    padding: 47px 84px 34px 80px;
+    z-index: 2;
+  }
+  .customer__comment-comma::before {
+    content: '';
+    position: absolute;
+    width: 54px;
+    height: 40px;
+    left: -18px;
+    top: -15px;
+  }
+  .customer__tittle-home::before {
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 4px;
+    left: 205px;
+    top: -35px;
+  }
+  .customer__tittle-home::after {
+    content: '';
+    position: absolute;
+    width: 73px;
+    height: 12px;
+    left: 185px;
+    bottom: -160px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .customer__comment-inner {
+    padding: 47px 80px 34px 80px;
+  }
+  .customer__comment {
+    font-size: 14px;
+    align-items: center;
+    line-height: 216%;
+    color: #000000;
+    background: repeating-linear-gradient(#fafafa, #fafafa 28px, #e1e1e1 30px);
+  }
+  .customer__comment-comma::before {
+    content: '';
+    position: absolute;
+    width: 54px;
+    height: 40px;
+    left: -18px;
+    top: -15px;
+  }
+  .customer__tittle-home::before {
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 4px;
+    left: 348px;
+    top: -35px;
+  }
+  .customer__tittle-home::after {
+    content: '';
+    position: absolute;
+    width: 73px;
+    height: 12px;
+    left: 330px;
+    top: 50px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .customer-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .customer__photo {
+    margin-bottom: 15px;
+  }
+  .customer__comment-inner {
+    padding: 47px 109px 30px 107px;
+  }
+  .customer__comment {
+    font-size: 16px;
+    align-items: center;
+    line-height: 186%;
+    color: #000000;
+    background: repeating-linear-gradient(#fafafa, #fafafa 28px, #e1e1e1 30px);
+  }
+  .customer__comment-comma::before {
+    content: '';
+    position: absolute;
+    width: 54px;
+    height: 40px;
+    left: -30px;
+    top: -15px;
+  }
+  .customer__tittle-home::before {
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 4px;
+    left: 50px;
+    top: -35px;
+  }
+  .customer__tittle-home::after {
+    content: '';
+    position: absolute;
+    width: 73px;
+    height: 12px;
+    left: 30px;
+    top: 50px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .customer-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .customer__photo {
+    margin-bottom: 15px;
+  }
+  .customer__comment-inner {
+    width: 926px;
+    padding: 47px 109px 30px 107px;
+  }
+  .customer__comment {
+    font-size: 16px;
+    align-items: center;
+    line-height: 186%;
+    color: #000000;
+    background: repeating-linear-gradient(#fafafa, #fafafa 28px, #e1e1e1 30px);
+  }
+  .customer__comment-comma::before {
+    content: '';
+    position: absolute;
+    width: 54px;
+    height: 40px;
+    left: -13px;
+    top: -15px;
+  }
+  .customer__tittle-home::before {
+    content: '';
+    position: absolute;
+    width: 32px;
+    height: 4px;
+    left: 50px;
+    top: -35px;
+  }
+  .customer__tittle-home::after {
+    content: '';
+    position: absolute;
+    width: 73px;
+    height: 12px;
+    left: 30px;
+    top: 50px;
+  }
+}
