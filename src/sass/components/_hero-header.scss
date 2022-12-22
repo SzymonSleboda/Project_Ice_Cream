@@ -264,6 +264,7 @@
   padding-right: 15px;
   color: var(--text-white);
   margin: 0;
+  align-self: flex-end;
   @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
@@ -321,6 +322,7 @@
   letter-spacing: 0.04em;
   text-transform: uppercase;
   color: var(--text-red);
+  align-self: flex-start;
   @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
