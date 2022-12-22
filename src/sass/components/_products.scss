@@ -228,6 +228,9 @@
   display: flex;
   justify-content: center;
 }
+.products__arrow:hover img {
+  cursor: pointer;
+}
 
 .products__subject::after {
   background-image: url('../images/png/dots-product.png');
