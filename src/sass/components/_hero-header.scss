@@ -260,8 +260,10 @@
   font-weight: 400;
   font-size: 8px;
   line-height: 10px;
-  text-align: justify;
+  text-align: end;
+  padding-right: 15px;
   color: var(--text-white);
+  margin: 0;
   @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
@@ -451,7 +453,7 @@
 .produckts-link--red {
   width: 62.4px;
   height: 24px;
-  margin-left: 8px;
+  // margin-left: 8px;
   background-color: var(--text-red);
   color: var(--text-white);
   border-radius: 20px;
@@ -464,6 +466,14 @@
   text-decoration: none;
   border: 0;
   text-align: center;
+  transition-duration: 250ms;
+  &:hover {
+    background: #c7133e;
+  }
+  &:focus {
+    background: #c7133e;
+  }
+
   @media screen and (max-width: 767px) {
     max-width: 480px;
   }
@@ -472,7 +482,7 @@
   }
   @media screen and (min-width: 1280px) {
     max-width: 1280px;
-    width: 102px;
+    width: 104px;
     height: 40px;
     font-size: 14px;
   }
@@ -494,6 +504,15 @@
   text-decoration: none;
   border: 0;
   text-align: center;
+  transition-duration: 250ms;
+
+  &:hover {
+    background: #ecebeb;
+  }
+
+  &:focus {
+    background: #ecebeb;
+  }
   @media screen and (min-width: 320px) and (max-width: 767px) {
     max-width: 480px;
   }
@@ -693,6 +712,7 @@
 }
 
 .arrow {
+  cursor: pointer;
   @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
@@ -703,9 +723,9 @@
     margin-top: 7px;
   }
   @media screen and (min-width: 1280px) {
-    width: 18px;
-    height: 18px;
-    margin-top: 7px;
+    width: 26px;
+    height: 26px;
+    margin-top: 20px;
   }
 }
 .des {
@@ -717,7 +737,13 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    margin-bottom: 10px;
+    margin-bottom: 6px;
+  }
+  @media screen and (min-width: 1280px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 28px;
   }
 }
 
@@ -803,7 +829,7 @@
   border-radius: 6px;
   margin: 0;
   border-color: #ffa5ba;
-  padding-left: 50px;
+  padding-left: 14px;
   border-style: solid;
   color: #d41443;
 }
@@ -848,6 +874,7 @@
   align-items: center;
   color: #d41443;
   background-color: white;
+  border-radius: 6px;
   &:focus-within .modal-order__icons {
     fill: white;
     border-color: white;
