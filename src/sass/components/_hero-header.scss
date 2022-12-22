@@ -466,6 +466,11 @@
   text-decoration: none;
   border: 0;
   text-align: center;
+
+  &:hover {
+    background: #c7133e;
+  }
+
   @media screen and (max-width: 767px) {
     max-width: 480px;
   }
@@ -474,7 +479,7 @@
   }
   @media screen and (min-width: 1280px) {
     max-width: 1280px;
-    width: 102px;
+    width: 104px;
     height: 40px;
     font-size: 14px;
   }
@@ -496,6 +501,11 @@
   text-decoration: none;
   border: 0;
   text-align: center;
+
+  &:hover {
+    background: #ecebeb;
+  }
+
   @media screen and (min-width: 320px) and (max-width: 767px) {
     max-width: 480px;
   }
@@ -695,6 +705,7 @@
 }
 
 .arrow {
+  cursor: pointer;
   @media screen and (max-width: 767px) {
     max-width: 480px;
     display: none;
