@@ -466,8 +466,11 @@
   text-decoration: none;
   border: 0;
   text-align: center;
-
+  transition-duration: 250ms;
   &:hover {
+    background: #c7133e;
+  }
+  &:focus {
     background: #c7133e;
   }
 
@@ -501,11 +504,15 @@
   text-decoration: none;
   border: 0;
   text-align: center;
+  transition-duration: 250ms;
 
   &:hover {
     background: #ecebeb;
   }
 
+  &:focus {
+    background: #ecebeb;
+  }
   @media screen and (min-width: 320px) and (max-width: 767px) {
     max-width: 480px;
   }
