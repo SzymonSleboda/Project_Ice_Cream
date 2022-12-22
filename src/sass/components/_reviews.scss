@@ -68,15 +68,38 @@
   left: 105px;
   top: 35px;
 }
-
+.customer__btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.customer__btn--active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4px;
+}
 .customer__btn {
-  
   display: inline-block;
   width: 12px;
   height: 12px;
   margin: 4px;
   border-radius: 12px;
   background: #D9D9D9;
+  cursor: pointer;
+  &:hover {
+    background: #D31342;
+    transition: 250ms;
+  }
+}
+.customer__icon {
+fill: #D31342;
+cursor: pointer;
+&:hover {
+  fill: #D9D9D9;
+  transition: 250ms;
+}
 }
 // .customer__btn--active {
 //   content: '';
@@ -156,6 +179,10 @@
     left: 330px;
     top: 50px;
   }
+
+.customer__btns {
+  margin-top: 35px;
+}
 }
 @media screen and (min-width: 1280px) {
   .customer-inner {
