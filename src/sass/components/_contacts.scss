@@ -192,6 +192,7 @@ background: var(--background-mobile-menu);
   height: 100%;
   background-color: rgba(0 0 0 / 0.5);
   transition: transform 0.25s;
+  z-index: 999;
 }
 .is-hidden-contacts {
   transform: translateX(-100%);
@@ -203,6 +204,7 @@ background: var(--background-mobile-menu);
   position: relative;
   top: 15%;
   left: 10%;
+  border-radius: 4px;
 }
 .modal-map {
   position: absolute;
